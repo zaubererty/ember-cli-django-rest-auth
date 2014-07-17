@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-django-rest-auth",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Addon to Ember Simple-Auth to authenticate with Django Rest Framework",
   "main": "index.js",
   "scripts": {
@@ -13,10 +13,16 @@
   "keywords": [
     "ember-addon"
   ],
-  "author": "Thomas Ziegler",
+  "author": {
+    "name": "Thomas Ziegler"
+  },
   "license": "LGPLv3",
   "bugs": {
     "url": "https://github.com/zaubererty/ember-cli-django-rest-auth/issues"
   },
-  "homepage": "https://github.com/zaubererty/ember-cli-django-rest-auth"
+  "homepage": "https://github.com/zaubererty/ember-cli-django-rest-auth",
+  "readme": "# Ember CLI - Django Rest-Auth\n\n## About ##\n\nA ember component to authenticate against Django Rest-Framework\n\n## Install ##\n\n```bash\nnpm install ember-cli-django-rest-auth --save-dev\n```\n\n## Usage ##\n\nplace your auth settings in your environment.js\n\n```js\nif (environment === 'development') {\n    ENV.APP.API_HOST = 'http://localhost:8000';\n    ENV['simple-auth'] = {\n      authorizer: 'authorizer:django-rest',\n      serverTokenEndpoint: 'http://localhost:8000/api-token-auth/',\n      crossOriginWhitelist: ['http://localhost:8000']\n    };\n```\n\n## Authors ##\n\n* [Thomas Ziegler](http://twitter.com/zauberertz)\n",
+  "readmeFilename": "README.md",
+  "_id": "ember-cli-django-rest-auth@0.1.0",
+  "_from": "ember-cli-django-rest-auth@"
 }

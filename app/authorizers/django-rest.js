@@ -1,5 +1,5 @@
 import Base from 'simple-auth/authorizers/base';
-import isSecureUrl from 'app/utils/is-secure-url';
+import isSecureUrl from './../utils/is-secure-url';
 
 export default Base.extend({
   authorize: function(jqXHR, requestOptions) {

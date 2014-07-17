@@ -24,6 +24,19 @@ if (environment === 'development') {
     };
 ```
 
+Add following initializer to your app you may call it auth.js:
+
+```js
+export default {
+  name:       'auth',
+  before:      'django-rest-auth',
+  initialize: function(container, application){
+  	window.ENV = <APPNAME>ENV;
+  }
+};
+
+```
+
 ## Authors ##
 
 * [Thomas Ziegler](http://twitter.com/zauberertz)

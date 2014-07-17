@@ -1,6 +1,6 @@
 import Ember from 'ember';
 import Base from 'simple-auth/authenticators/base';
-import isSecureUrl from 'app/utils/is-secure-url';
+import isSecureUrl from './../utils/is-secure-url';
 
 export default Base.extend({
 
