@@ -1,0 +1,22 @@
+{
+  "name": "ember-cli-django-rest-auth",
+  "version": "0.1.0",
+  "description": "Addon to Ember Simple-Auth to authenticate with Django Rest Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zaubererty/ember-cli-django-rest-auth.git"
+  },
+  "keywords": [
+    "ember-addon"
+  ],
+  "author": "Thomas Ziegler",
+  "license": "LGPLv3",
+  "bugs": {
+    "url": "https://github.com/zaubererty/ember-cli-django-rest-auth/issues"
+  },
+  "homepage": "https://github.com/zaubererty/ember-cli-django-rest-auth"
+}
