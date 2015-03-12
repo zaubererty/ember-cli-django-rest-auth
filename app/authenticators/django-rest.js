@@ -15,7 +15,7 @@ export default Base.extend({
       var data = { username: credentials.identification, password: credentials.password };
       _this.makeRequest(_this.serverTokenEndpoint, data).then(function(response) {
         Ember.run(function() {
-          resolve(Ember.$.extend(response));
+          resolve(response);
         });
       }, function(xhr, status, error) {
         Ember.run(function() {
