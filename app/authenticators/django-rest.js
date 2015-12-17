@@ -1,11 +1,11 @@
 import Ember from 'ember';
-import Base from 'simple-auth/authenticators/base';
+import Base from 'ember-simple-auth/authenticators/base';
 import isSecureUrl from './../utils/is-secure-url';
 
 export default Base.extend({
 
   init: function() {
-    var globalConfig                   = window.ENV['simple-auth'] || {};
+    var globalConfig                   = window.ENV['ember-simple-auth'] || {};
     this.serverTokenEndpoint           = globalConfig.serverTokenEndpoint || '/api-token-auth/';
   },
 

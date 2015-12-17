@@ -1,4 +1,4 @@
-import Base from 'simple-auth/authorizers/base';
+import Base from 'ember-simple-auth/authorizers/base';
 import isSecureUrl from './../utils/is-secure-url';
 
 export default Base.extend({
