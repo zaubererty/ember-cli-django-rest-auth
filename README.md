@@ -1,3 +1,5 @@
+[![Ember Observer Score](http://emberobserver.com/badges/ember-cli-django-rest-auth.svg)]
+
 # Ember CLI - Django Rest-Auth
 
 ## About ##
